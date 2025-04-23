@@ -1,8 +1,7 @@
 services:
   - type: web
     name: mi-api-php
-    env: php
+    runtime: php
     plan: free
-    buildCommand: ""
-    startCommand: ""
     rootDir: public
+    startCommand: ""
